@@ -8,6 +8,7 @@
         public Vehicle(string typeOfVehicle)
         {
             this.typeOfVehicle = typeOfVehicle;
+            Console.WriteLine(WriteMessage("created."));
         }
         public string GetTypeOfVehicle()
         {
